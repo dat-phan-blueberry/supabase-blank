@@ -1,0 +1,19 @@
+{
+  "imports": {
+    "db-schema": "../../schema.generated.ts",
+    "@supabase/supabase-js": "npm:@supabase/supabase-js@2.45.4",
+    "@std/http": "jsr:@std/http@1.0.2",
+    "crypto-js": "npm:crypto-js@4.2.0",
+    "uuid": "npm:uuid@10.0.0",
+    "axios": "npm:axios@1.7.7",
+    "hono": "npm:hono@4.6.1",
+    "hono/jwt": "npm:hono@4.6.1/jwt",
+    "hono/cors": "npm:hono@4.6.1/cors",
+    "hono/factory": "npm:hono@4.6.1/factory",
+    "@hono/zod-validator": "npm:@hono/zod-validator@0.2.2",
+    "zod": "npm:zod@3.23.8",
+    "postgres": "https://deno.land/x/postgres@v0.17.0/mod.ts",
+    "dayjs": "npm:dayjs@1.11.13",
+    "lodash": "npm:lodash@3.7.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "kd-reserve",
+  "version": "1.0.0",
+  "scripts": {
+    "sb": "supabase",
+    "start": "supabase start",
+    "stop": "supabase stop",
+    "serve": "supabase functions serve",
+    "generate-scheme": "supabase  gen types typescript -s auth,public,extensions --local  > schema.generated.ts",
+    "generate-migration-diff": "supabase db diff --local -f script-updates"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.13",
+    "supabase": "^2.22.6"
+  }
+}
